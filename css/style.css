@@ -77,6 +77,9 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -94,6 +97,12 @@ section button:hover {
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/**Estiliza as imagens dos itens do resultado**/
+.item-resultado img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
